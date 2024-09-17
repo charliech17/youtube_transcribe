@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtube-download-translate"
+version = "0.1.0"
+description = ""
+authors = ["Josh <kcchang1994@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+yt-dlp = "^2024.8.6"
+speechrecognition = "^3.10.4"
+torch = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
