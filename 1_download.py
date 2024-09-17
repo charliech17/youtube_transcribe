@@ -34,6 +34,6 @@ ydl_opts = {
     '--ffmpeg-location': '/usr/local/bin/ffmpeg',
 }
 
-youtubeVideoId = input('請輸入youtube的videoId下載影片，例如lg48Bi9DA54') # ex: lg48Bi9DA54
+youtubeVideoId = input('請輸入youtube的videoId下載影片，例如lg48Bi9DA54\n') # ex: lg48Bi9DA54
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([f'https://www.youtube.com/watch?v={youtubeVideoId}'])

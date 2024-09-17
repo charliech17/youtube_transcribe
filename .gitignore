@@ -54,3 +54,12 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# wav
+*.wav
+
+# txt
+*.txt
+
+# tempCodeRunnerFile 
+tempCodeRunnerFile.py
