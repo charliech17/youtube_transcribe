@@ -7,9 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-yt-dlp = "^2024.8.6"
 speechrecognition = "^3.10.4"
 torch = "^2.4.1"
+yt-dlp = "^2025.3.21"
 
 
 [build-system]
